@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Brindes</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav class="menu">
+        <a href="index.html"><b>Retornar ao Menu Principal</b></a>
+    </nav>
+
+    
+    
+
+    <h2 class="com-sombra">Brindes</h2>
+
+<style>
+  .com-sombra {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+</style>
+
+    <div class="filtros">
+        <button id="btn-kit-gourmet"><b>Kit Gourmet</b></button>
+        <button id="btn-kit-praia"><b>Kit Praia</b></button>
+        <button id="btn-escritorio"><b>Escritório</b></button>
+        <button id="btn-linha-executiva"><b>Linha Executiva</b></button>
+        <button id="btn-acessorios"><b>Acessórios</b></button>
+    </div>
+
+    <!-- Produtos Kit Gourmet -->
+    <div id="kit-gourmet-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/kit-petisco.jpg" alt="Kit Petisco" class="zoom-img">
+            <h4>Kit Petisco</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Kit Queijo" class="zoom-img">
+            <h4>Kit Queijo</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Kit Vinho" class="zoom-img">
+            <h4>Kit Vinho</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Kit Caipirinha" class="zoom-img">
+            <h4>Kit Caipirinha</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>
+
+    <!-- Produtos Kit Praia -->
+    <div id="kit-praia-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Cadeira de Praia" class="zoom-img">
+            <h4>Cadeira de Praia</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Cooler" class="zoom-img">
+            <h4>Cooler</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Guarda-Sol" class="zoom-img">
+            <h4>Guarda-Sol</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Toalha de Banho" class="zoom-img">
+            <h4>Toalha de Banho</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>
+
+        <!-- Produtos Escritório -->
+    <div id="escritorio-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Caneta Touch" class="zoom-img">
+            <h4>Caneta Touch</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Caneta com Marca-Texto" class="zoom-img">
+            <h4>Caneta com Marca-Texto</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Lápis" class="zoom-img">
+            <h4>Lápis</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Kit Caneta com Lapiseira" class="zoom-img">
+            <h4>Kit Caneta com Lapiseira</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Bloco de Anotações Preto" class="zoom-img">
+            <h4>Bloco de Anotações Preto</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Bloco de Anotações em Bambu" class="zoom-img">
+            <h4>Bloco de Anotações em Bambu</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Bloco de Anotações Preto - Simple2u" class="zoom-img">
+            <h4>Bloco de Anotações Preto - Simple2u</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Moleskine Pequena" class="zoom-img">
+            <h4>Moleskine Pequena</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Agenda 2025" class="zoom-img">
+            <h4>Agenda 2025</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Caderno 2025" class="zoom-img">
+            <h4>Caderno 2025</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+        </div>
+
+        <!-- Produtos Linha Executiva -->
+    <div id="linha-executiva-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Mochila Executiva" class="zoom-img">
+            <h4>Mochila Executiva</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Mochila Antifurto" class="zoom-img">
+            <h4>Mochila Antifurto</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Mochila de Couro" class="zoom-img">
+            <h4>Mochila de Couro</h4>
+            <p>R$</p>
+            <p class="indisponivel">Indisponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Mala Cabine" class="zoom-img">
+            <h4>Mala Cabine</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Porta Vinho de Couro" class="zoom-img">
+            <h4>Porta Vinho de Couro</h4>
+            <p>R$</p>
+            <p class="indisponivel">Indisponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Necessáire de Couro" class="zoom-img">
+            <h4>Necessáire de Couro</h4>
+            <p>R$</p>
+            <p class="indisponivel">Indisponível</p>
+        </div>
+	
+	<div class="produto">
+            <img src="img/" alt="Chaveiro de Couro" class="zoom-img">
+            <h4>Chaveiro de Couro</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>    
+
+        <!-- Produtos Acessórios -->
+    <div id="acessorios-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Copo Térmico" class="zoom-img">
+            <h4>Copo Térmico</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Copo Fibra de Bambu" class="zoom-img">
+            <h4>Copo Fibra de Bambu</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Caneca de Porcelana" class="zoom-img">
+            <h4>Caneca de Porcelana</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Conjunto de Copo de Café" class="zoom-img">
+            <h4>Conjunto de Copo de Café</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Garrafinha Térmica" class="zoom-img">
+            <h4>Garrafinha Térmica</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Caixinha de Som em Bambu" class="zoom-img">
+            <h4>Caixinha de Som em Bambu</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+	
+	    <div class="produto">
+            <img src="img/" alt="Caixinha de Som Simple2u" class="zoom-img">
+            <h4>Caixinha de Som Simple2u</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+	
+	    <div class="produto">
+            <img src="img/" alt="Carregador Portátil" class="zoom-img">
+            <h4>Carregador Portátil</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Fone Bluetooth" class="zoom-img">
+            <h4>Fone Bluetooth</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Guarda-Chuva Invertido" class="zoom-img">
+            <h4>Guarda-Chuva Invertido</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Sacola TNT" class="zoom-img">
+            <h4>Sacola TNT</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Squeeze" class="zoom-img">
+            <h4>Squeeze</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Suporte para Bolsa de Metal" class="zoom-img">
+            <h4>Suporte para Bolsa de Metal</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	    <div class="produto">
+            <img src="img/" alt="Guarda-Chuva" class="zoom-img">
+            <h4>Guarda-Chuva</h4>
+            <p>R$</p>
+            <p class="indisponivel">Indisponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Necessáire Azul - Funpresp" class="zoom-img">
+            <h4>Necessáire Azul - Funpresp</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>
+
+    <script>
+    // Mostrar Kit Gourmet e esconder outros
+    document.getElementById('btn-kit-gourmet').addEventListener('click', function () {
+        document.getElementById('kit-gourmet-itens').style.display = 'flex';
+        document.getElementById('kit-praia-itens').style.display = 'none';
+        document.getElementById('escritorio-itens').style.display = 'none';
+        document.getElementById('linha-executiva-itens').style.display = 'none';
+        document.getElementById('acessorios-itens').style.display = 'none';
+    });
+
+    // Mostrar Kit Praia e esconder outros
+    document.getElementById('btn-kit-praia').addEventListener('click', function () {
+        document.getElementById('kit-gourmet-itens').style.display = 'none';
+        document.getElementById('kit-praia-itens').style.display = 'flex';
+        document.getElementById('escritorio-itens').style.display = 'none';
+        document.getElementById('linha-executiva-itens').style.display = 'none';
+        document.getElementById('acessorios-itens').style.display = 'none';
+    });
+
+    // Mostrar Escritório e esconder outros
+    document.getElementById('btn-escritorio').addEventListener('click', function () {
+        document.getElementById('kit-gourmet-itens').style.display = 'none';
+        document.getElementById('kit-praia-itens').style.display = 'none';
+        document.getElementById('escritorio-itens').style.display = 'flex';
+        document.getElementById('linha-executiva-itens').style.display = 'none';
+        document.getElementById('acessorios-itens').style.display = 'none';
+    });
+
+    // Mostrar Linha Executiva e esconder outros
+    document.getElementById('btn-linha-executiva').addEventListener('click', function () {
+        document.getElementById('kit-gourmet-itens').style.display = 'none';
+        document.getElementById('kit-praia-itens').style.display = 'none';
+        document.getElementById('escritorio-itens').style.display = 'none';
+        document.getElementById('linha-executiva-itens').style.display = 'flex';
+        document.getElementById('acessorios-itens').style.display = 'none';
+    });
+
+    // Mostrar Acessórios e esconder outros
+    document.getElementById('btn-acessorios').addEventListener('click', function () {
+        document.getElementById('kit-gourmet-itens').style.display = 'none';
+        document.getElementById('kit-praia-itens').style.display = 'none';
+        document.getElementById('escritorio-itens').style.display = 'none';
+        document.getElementById('linha-executiva-itens').style.display = 'none';
+        document.getElementById('acessorios-itens').style.display = 'flex';
+    });
+
+    // Amplia a imagem ao clicar
+    document.querySelectorAll('.zoom-img').forEach(function (img) {
+        img.addEventListener('click', function () {
+            const win = window.open();
+            win.document.write('<img src="' + img.src + '" style="width: 100%;">');
+        });
+    });
+</script>
+</body>
+</html>

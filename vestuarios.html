@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vestuários</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav class="menu">
+        <a href="index.html"><b>Retornar ao Menu Principal</b></a>
+    </nav>
+
+    <h2 class="com-sombra">Vestuário</h2>
+
+<style>
+  .com-sombra {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+</style>
+    
+    <div class="filtros">
+        <button id="btn-camisas"><b>Camisas</b></button>
+        <button id="btn-camisas-esportivas"><b>Camisas Esportivas</b></button>
+        <button id="btn-linha-inverno"><b>Linha Inverno</b></button>
+        <button id="btn-calcas-saias"><b>Calças e Saias</b></button>
+    </div>
+
+    <!-- Produtos Camisas -->
+    <div id="camisas-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Camisa Polo Azul - Masculina" class="zoom-img">
+            <h4>Camisa Polo Azul - Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Camisa Polo Branca - Masculina" class="zoom-img">
+            <h4>Camisa Polo Branca - Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Camisa Polo Azul - Feminina" class="zoom-img">
+            <h4>Camisa Polo Azul - Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Camisa Polo Branca - Feminina" class="zoom-img">
+            <h4>Camisa Polo Branca - Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Polo Pima Azul" class="zoom-img">
+            <h4>Camisa Polo Pima Azul</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Polo Pima Branca" class="zoom-img">
+            <h4>Camisa Polo Pima Branca</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Social Azul Marinho Masculina" class="zoom-img">
+            <h4>Camisa Social Azul Marinho Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Social Azul Masculina" class="zoom-img">
+            <h4>Camisa Social Azul Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Social Branca Masculina" class="zoom-img">
+            <h4>Camisa Social Branca Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Social Azul Marinho Feminina" class="zoom-img">
+            <h4>Camisa Social Azul Marinho Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Social Azul Feminina" class="zoom-img">
+            <h4>Camisa Social Azul Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Social Branca Feminina" class="zoom-img">
+            <h4>Camisa Social Branca Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>
+
+    <!-- Produtos Camisas Esportivas-->
+    <div id="camisas-esportivas-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Curta Cinza - Masculina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Curta Cinza - Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Curta Cinza - Feminina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Curta Cinza - Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Longa Cinza - Masculina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Longa Cinza - Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Longa Cinza - Feminina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Longa Cinza - Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Curta Azul - Masculina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Curta Azul - Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Curta Azul - Feminina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Curta Azul - Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Curta Verde - Masculina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Curta Verde - Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+	<div class="produto">
+            <img src="img/" alt="Camisa Esportiva Manga Curta Verde - Feminina" class="zoom-img">
+            <h4>Camisa Esportiva Manga Curta Verde - Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>
+
+    <!-- Produtos Linha Inverno-->
+    <div id="linha-inverno-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Suéter Gola Zíper - Masculino" class="zoom-img">
+            <h4>Suéter Gola Zíper - Masculino - Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Suéter Gola Zíper - Feminino" class="zoom-img">
+            <h4>Suéter Gola Zíper - Feminino</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Suéter Gola V - Masculino" class="zoom-img">
+            <h4>Suéter Gola V - Masculino</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Suéter Gola V - Feminino" class="zoom-img">
+            <h4>Suéter Gola V - Feminino</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>
+
+    <!-- Produtos Calças e Saias-->
+    <div id="calcas-saias-itens" class="produtos" style="display: none;">
+        <div class="produto">
+            <img src="img/" alt="Calça Masculina" class="zoom-img">
+            <h4>Calça Masculina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Calça Feminina" class="zoom-img">
+            <h4>Calça Feminina</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+
+        <div class="produto">
+            <img src="img/" alt="Saia" class="zoom-img">
+            <h4>Saia</h4>
+            <p>R$</p>
+            <p class="disponivel">Disponível</p>
+        </div>
+    </div>
+
+    <script>
+
+        // Mostrar Camisas e esconder outros
+  document.getElementById('btn-camisas').addEventListener('click', function () {
+    document.getElementById('camisas-itens').style.display = 'flex';
+  });
+
+  // Mostrar Camisas Esportivas e esconder outros
+  document.getElementById('btn-camisas-esportivas').addEventListener('click', function () {
+    document.getElementById('camisas-esportivas-itens').style.display = 'flex';
+    document.getElementById('camisas-itens').style.display = 'none';
+  });
+
+  // Mostrar Linha Inverno e esconder outros
+  document.getElementById('btn-linha-inverno').addEventListener('click', function () {
+    document.getElementById('camisas-esportivas-itens').style.display = 'none';
+    document.getElementById('camisas-itens').style.display = 'none';
+    document.getElementById('linha-inverno-itens').style.display = 'flex';
+  });
+
+  // Mostrar Calças e Saias e esconder outros
+  document.getElementById('btn-calcas-saias').addEventListener('click', function () {
+    document.getElementById('camisas-esportivas-itens').style.display = 'none';
+    document.getElementById('camisas-itens').style.display = 'none';
+    document.getElementById('linha-inverno-itens').style.display = 'none';
+    document.getElementById('calcas-saias-itens').style.display = 'flex';
+  });
+
+  // Amplia a imagem ao clicar
+    document.querySelectorAll('.zoom-img').forEach(function (img) {
+        img.addEventListener('click', function () {
+            const win = window.open();
+            win.document.write('<img src="' + img.src + '" style="width: 100%;">');
+        });
+});        
+
+
+</script>
+</body>
+</html>
